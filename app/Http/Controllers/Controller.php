@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Conts;
+namespace App\Http\Controllers;
 
 abstract class Controller
 {

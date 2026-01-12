@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Conts;
+namespace App\Http\Controllers;
 
-class LuxeCont extends Controller
+class LuxeController extends Controller
 {
     // Données statiques (remplace la base de données)
     private $produits = [
@@ -29,7 +29,7 @@ class LuxeCont extends Controller
         // MÊME IMAGE POUR TOUTES LES PAGES
         'image_main' => 'https://plus.unsplash.com/premium_photo-1675107360188-111441548390?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fFJvYmUlMjBTb2lyJUMzJUE5ZXxlbnwwfHwwfHx8MA%3D%3D',
         'image_thumb' => 'https://plus.unsplash.com/premium_photo-1675107360188-111441548390?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fFJvYmUlMjBTb2lyJUMzJUE5ZXxlbnwwfHwwfHx8MA%3D%3D',
-        'image_autres'=>'https://images.unsplash.com/photo-1631234764568-996fab371596?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'image_autres'=>'https://images.unsplash.com/photo-1631234764568-996fab371596?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         'details' => 'Soie naturelle · Broderies main · Unique pièce'
     ],
     3 => [
