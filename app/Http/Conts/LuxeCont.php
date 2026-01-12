@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Conts;
 
 class LuxeCont extends Controller
 {
